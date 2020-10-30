@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap");
 :root {
   --font-col1: #ffff;
-  --btn-col: linear-gradient(to right, #dd9f18, #d12d18);
+  --btn-col: linear-gradient(to right, #866318, #55170f);
 }
 
 * {
