@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap");
+:root {
+  --btn-col: linear-gradient(to right, #ffb000, #ff1f00);
+  --font-col1: #ffff;
+  --font-colblue: #0b375c;
+  --font-colyel: #000;
+  --bk-opac: rgba(250, 250, 250, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: mukta, sans-serif;
+}
+.btns {
+  color: rgb(182, 182, 13) !important;
+  /* font-size: 18px; */
+  border: 1px solid #111;
+  width: 100px;
+  text-align: center;
+}
+.btns:hover {
+  transition: 0.5s ease-in;
+  transform: scaleX(1.04);
+  box-shadow: 0 5px 8px 10px rgba(202, 198, 198, 0.3);
+}
+.sign-top {
+  background: url("../img/bk-bg1.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* padding: 20px; */
+  border-bottom: 4px solid var(--font-col1);
+}
+/* header {
+  border-bottom: 1px solid var(--head-bordcol);
+}
+nav {
+  padding: 15px 80px;
+} */
+input {
+  display: block;
+  margin: 30px 10px !important;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: 4%;
+  border: none;
+  max-width: 300px;
+  width: 90%;
+  height: 45px;
+  border-radius: 4px;
+  padding: 25px 10px 25px 45px;
+  outline: none;
+}
+input#user {
+  background-image: url("../img/user\ 1.png");
+}
+input#email {
+  background-image: url("../img/email\ 1.png");
+}
+input#pass {
+  background-image: url("../img/lock\ 1.png");
+}
+
+.sign-content {
+  padding: 70px 10px;
+}
+.contents {
+  padding: 20px 80px;
+  background-color: var(--bk-opac);
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.btn-buy {
+  background: var(--btn-col);
+  padding: 12px 8px;
+  width: 120px;
+  outline: none !important;
+  border: none;
+  color: var(--font-col1);
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.btns {
+  text-decoration: none;
+  border: 1px solid #111;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+}
+.btns:hover {
+  background-color: rgb(95, 95, 95);
+  color: white !important;
+}
+.submit {
+  text-align: center;
+}
+.black-text {
+  color: #111;
+}
+@media (max-width: 1000px) {
+  .content {
+    margin: 30px auto;
+    padding: 10px 0;
+  }
+  .sign-content {
+    padding: 0;
+  }
+  form {
+    max-width: 300px;
+    margin: auto;
+    /* text-align: center; */
+  }
+}
+.foot-sect {
+  background: var(--btn-col);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--font-col1);
+  padding: 40px 80px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+}
+.links a {
+  color: var(--font-col1);
+  text-decoration: none;
+}
+.links {
+  list-style: none;
+  padding: 0;
+}
+.links li {
+  padding-top: 20px;
+}
+.foot1 h5 {
+  font-size: 20px;
+}
+.yeltext {
+  color: var(--font-colyel);
+}
+.right {
+  text-align: center;
+  padding-top: 40px;
+}
